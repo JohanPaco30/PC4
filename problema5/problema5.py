@@ -23,7 +23,6 @@ def MostrarLineaTablaMultiplicar(numero, linea):
     except FileNotFoundError:
         print(f"El archivo tabla-{numero}.txt no existe.")
 
-# Menú para organizar el programa
 opcion = 0
 while opcion != 4:
     print("\nMenú:")
